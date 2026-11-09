@@ -1,3 +1,30 @@
+commit 0145d25e391d07d0dfa9b5b27cb8ab694454512a
+Author: Hassaan Mudassar <23i0536@nu.edu.pk>
+Date:   Mon Nov 9 19:51:36 2026 +0500
+
+    A2: assignment files, securelink2.cpp complete, Part B draft, Part D performance
+
+ .gitignore                        |  10 ++++
+ 23i-0536-G-REPORT.md              |   1 +
+ Appendix.pdf                      | Bin 0 -> 51598 bytes
+ Assignment2_Statement_cleaned.pdf | Bin 0 -> 117562 bytes
+ BUILD.md                          |  54 ++++++++++++++++++
+ FUNCTIONALITY.pdf                 | Bin 0 -> 60953 bytes
+ Lab_Setup_Guide_cleaned.pdf       | Bin 0 -> 86690 bytes
+ SmartLock.zip                     | Bin 0 -> 136648 bytes
+ answers_template.txt              |   8 +++
+ evidence/git_log.txt              |  64 +++++++++++++++++++++
+ exploits/23i-0536-G-TASKA1-V1.txt |   1 +
+ exploits/23i-0536-G-TASKA2-V1.txt |   1 +
+ exploits/23i-0536-G-TASKA3-V1.txt |   1 +
+ exploits/23i-0536-G-TASKA4-V1.txt |   1 +
+ exploits/23i-0536-G-TASKA5-V1.txt |   1 +
+ v2_skeleton/README.md             |  83 +++++++++++++++++++++++++++
+ v2_skeleton/hub_client2.cpp       |  93 +++++++++++++++++++++++++++++++
+ v2_skeleton/instance.txt          |  15 +++++
+ v2_skeleton/lock_server2.cpp      | 114 ++++++++++++++++++++++++++++++++++++++
+ 19 files changed, 447 insertions(+)
+
 commit 4ef772aff20bd64831783bbb283352ea60eb0bbf
 Author: Hassaan Mudassar <23i0536@nu.edu.pk>
 Date:   Mon Nov 9 19:48:39 2026 +0500
