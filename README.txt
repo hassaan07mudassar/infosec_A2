@@ -60,5 +60,24 @@ All assertions pass:
 - Check 4: AEAD seal/open round-trip
 - Check 5: Replay and tampered record rejection
 - Check 6: Source scan clean (zero md5/TODO, contains hkdf/evp_kdf)
+
+5. RUNNING PART A EXPLOIT SOLVERS
+---------------------------------
+All exploits dynamically parse wire lines from evidence/cap_v1_stream.txt:
+
+A. Task A.3 (Baby-Step Giant-Step Discrete Log & Flag Recovery):
+   $ cd exploits
+   $ g++ -std=c++17 -O2 -Wall 23i-0536-G-TASKA3-V1.cpp -lcrypto -o taskA3_solve
+   $ ./taskA3_solve ../evidence/cap_v1_stream.txt
+
+B. Task A.4 (Nonce Reuse Keystream XOR & Greeting Recovery):
+   $ cd exploits
+   $ g++ -std=c++17 -O2 -Wall 23i-0536-G-TASKA4-V1.cpp -o taskA4_solve
+   $ ./taskA4_solve ../evidence/cap_v1_stream.txt
+
+C. Task A.5 (Replay Command Injection):
+   $ cd exploits
+   $ g++ -std=c++17 -O2 -Wall 23i-0536-G-TASKA5-V1.cpp -o taskA5_replay
+   $ ./taskA5_replay ../evidence/cap_v1_stream.txt 127.0.0.1 9265
 ========================================================================
 
