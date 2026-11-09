@@ -1,0 +1,64 @@
+commit 4ef772aff20bd64831783bbb283352ea60eb0bbf
+Author: Hassaan Mudassar <23i0536@nu.edu.pk>
+Date:   Mon Nov 9 19:48:39 2026 +0500
+
+    Part A & B: Add exploit documentation, recovered answers, and final report
+
+ 23i-0536-G-REPORT.docx            | Bin 0 -> 204983 bytes
+ 23i-0536-G-REPORT.md              | 145 ++++++++++++++++++++++++++++++++++++++
+ 23i-0536-G-REPORT.pdf             | Bin 0 -> 501150 bytes
+ README.txt                        |  64 +++++++++++++++++
+ answers.txt                       |   7 ++
+ exploits/23i-0536-G-TASKA1-V1.txt |  39 ++++++++++
+ exploits/23i-0536-G-TASKA2-V1.txt |  44 ++++++++++++
+ exploits/23i-0536-G-TASKA3-V1.txt |  56 +++++++++++++++
+ exploits/23i-0536-G-TASKA4-V1.txt |  44 ++++++++++++
+ exploits/23i-0536-G-TASKA5-V1.txt |  52 ++++++++++++++
+ 10 files changed, 451 insertions(+)
+
+commit 4d6b4ee3f93414189c247842a62e7ebc8c264ba6
+Author: Hassaan Mudassar <23i0536@nu.edu.pk>
+Date:   Mon Nov 9 19:48:38 2026 +0500
+
+    Part D: Implement performance benchmarking tool and generate charts
+
+ performance/23i-0536-G-TASKD-V1.cpp | 389 ++++++++++++++++++++++++++++++++++++
+ performance/benchmark_chart.png     | Bin 0 -> 187144 bytes
+ performance/generate_chart.py       |  54 +++++
+ performance/perf_bench              | Bin 0 -> 129184 bytes
+ 4 files changed, 443 insertions(+)
+
+commit 1eaad2760933e7413d6910dac66ad559fc366f61
+Author: Hassaan Mudassar <23i0536@nu.edu.pk>
+Date:   Mon Nov 9 19:48:37 2026 +0500
+
+    Part C: Complete securelink2.cpp implementation with HKDF and AEAD
+
+ securelink2.cpp             | 259 ++++++++++++++++++++++++++++++++++++++++++++
+ v2_skeleton/securelink2.cpp | 259 ++++++++++++++++++++++++++++++++++++++++++++
+ v2_skeleton/securelink2.hpp |  39 +++++++
+ 3 files changed, 557 insertions(+)
+
+commit a90952b0329207cd750e814699bf6f3e4e77da02
+Author: Hassaan Mudassar <23i0536@nu.edu.pk>
+Date:   Mon Nov 9 19:48:36 2026 +0500
+
+    Initial import: SmartLock v1 and v2 scaffold
+
+ smartlock/Makefile               |  19 +++++
+ smartlock/hub_client             | Bin 0 -> 59008 bytes
+ smartlock/hub_client.cpp         |  57 +++++++++++++
+ smartlock/instance.txt           |  15 ++++
+ smartlock/instance_generator     | Bin 0 -> 36968 bytes
+ smartlock/instance_generator.cpp |  75 ++++++++++++++++
+ smartlock/lock_server            | Bin 0 -> 76864 bytes
+ smartlock/lock_server.cpp        | 103 ++++++++++++++++++++++
+ smartlock/pin_wordlist.txt       |  86 +++++++++++++++++++
+ smartlock/pki.hpp                |  38 +++++++++
+ smartlock/secrets.hpp            |  84 ++++++++++++++++++
+ smartlock/slink.hpp              | 179 +++++++++++++++++++++++++++++++++++++++
+ v2_skeleton/Makefile             |  21 +++++
+ v2_skeleton/dh2048.hpp           |  48 +++++++++++
+ v2_skeleton/pki.hpp              |  38 +++++++++
+ v2_skeleton/slink.hpp            | 179 +++++++++++++++++++++++++++++++++++++++
+ 16 files changed, 942 insertions(+)
