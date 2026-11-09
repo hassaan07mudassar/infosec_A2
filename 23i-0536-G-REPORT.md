@@ -5,7 +5,6 @@
 **Section:** G  
 **Institution:** FAST National University of Computer and Emerging Sciences, Islamabad  
 **Course:** CS3002 Information Security  
-**Instructor:** Usman Bari  
 
 ---
 
